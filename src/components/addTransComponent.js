@@ -4,7 +4,7 @@ import { GlobalContext } from '../context/globalContext';
 export const AddTransComponent = () => {
 
     const [text, setText] = useState('');
-    const [amount, setAmount] = useState(0);
+    const [amount, setAmount] = useState();
     const { addTrans } = useContext(GlobalContext);
 
     const onSubmit = e => {
@@ -23,7 +23,7 @@ export const AddTransComponent = () => {
         addTrans(newTransaction);
 
         setText('');
-        setAmount(0)
+        setAmount('')
     }
 
     return (
