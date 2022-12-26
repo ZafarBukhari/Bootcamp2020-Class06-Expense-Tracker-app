@@ -2,4 +2,4 @@
 This repository contains code and assignment of class-06. In this class concepts of Context API along with useState, useReducer, usecontext hooks are practiced.
 
 
-http://exp-tracker-app.surge.sh/
+[Expense Tracker App](http://exp-tracker-app.surge.sh/)
